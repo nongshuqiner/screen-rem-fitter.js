@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>screenRemFitter</title>
+  </head>
+  <body>
+    <div id="examples">
+    </div>
+    <script src="../lib/index.js"></script>
+    <script>
+      // 此处是代码...
+      console.log(window.screenRemFitter);
+      window.screenRemFitter.setData(360, 750);
+      window.screenRemFitter.flexible();
+      window.addEventListener('resize', function () {
+        console.log(window.screenRemFitter);
+      });
+    </script>
+  </body>
+</html>

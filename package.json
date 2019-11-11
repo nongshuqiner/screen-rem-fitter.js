@@ -1,0 +1,35 @@
+{
+  "name": "screen-rem-fitter.js",
+  "version": "1.0.0",
+  "description": "这是一个根据浏览器屏幕大小，按照设置比例动态调整html标签的font-size大小的库，用于rem来适配屏幕",
+  "main": "./src/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "files": [
+    "examples",
+    "lib",
+    "src"
+  ],
+  "private": false,
+  "scripts": {
+    "examples": "open ./examples/index.html",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "keywords": [
+    "screen-rem-fitter"
+  ],
+  "homepage": "https://github.com/nongshuqiner/screen-rem-fitter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nongshuqiner/screen-rem-fitter.js"
+  },
+  "author": "nongshuqiner <ym1185509297@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
